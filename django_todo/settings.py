@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-w%i5zvvj@^1(7%^hi4_@u=*s+5@fm9d-vz^jvrf-*_1+u-c8is
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['git.heroku.com/django-tasks-manager.git']
+ALLOWED_HOSTS = ['8000-shiimymy-hello-django-ev9fqudwgj.us2.codeanyapp.com']
 
 
 # Application definition
