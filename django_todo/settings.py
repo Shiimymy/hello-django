@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-w%i5zvvj@^1(7%^hi4_@u=*s+5@fm9d-vz^jvrf-*_1+u-c8is
 DEBUG = True
 
 ALLOWED_HOSTS = ['django-tasks-manager-c052e39c8b70.herokuapp.com']
-# ALLOWED_HOSTS = ['8000-shiimymy-hello-django-ev9fqudwgj.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['8000-shiimymy-hello-django-ev9fqudwgj.us2.codeanyapp.com']
 
 # Application definition
 
