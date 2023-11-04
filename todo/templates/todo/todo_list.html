@@ -9,13 +9,13 @@
   <body>
     <h1>Things I need to do:</h1>
     <table>
-      {%for item in items%}
+      {% for item in items %}
       <tr>
         {%if item.done%}
         <!--Item will be strikethrough if item is done-->
-        <td><strike>{{item.name}}</strike></td>
+        <td><strike>{{ item.name }}</strike></td>
         {%else%}
-        <td>{{item.name}}</td>
+        <td>{{ item.name }}</td>
         {%endif%}
         <td>
           <a href="/toggle/{{ item.id }}">

@@ -17,8 +17,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
-from pathlib import Path
-
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -32,8 +30,8 @@ SECRET_KEY = 'django-insecure-w%i5zvvj@^1(7%^hi4_@u=*s+5@fm9d-vz^jvrf-*_1+u-c8is
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['django-tasks-manager-3322759fd3df.herokuapp.com']
-
+# ALLOWED_HOSTS = ['django-tasks-manager-3322759fd3df.herokuapp.com']
+ALLOWED_HOSTS = ['8000-shiimymy-hello-django-ev9fqudwgj.us2.codeanyapp.com']
 
 # Application definition
 
